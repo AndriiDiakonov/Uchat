@@ -1,0 +1,84 @@
+#chat_background {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(236, 234, 238) 0%, rgb(243, 243, 243) 100%);
+    padding-bottom: 10px;
+}
+
+#room_header {
+    background: rgb(224, 224, 224);
+   /*background: linear-gradient(90deg, rgba(230, 230, 230,1) 0%, rgba(230, 230, 230,1) 100%);*/
+}
+#room_header_title {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    margin-left: -115px;
+}
+
+#day_info_show {
+    background: #777777;
+    color: white;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#usr_message {
+    color: #000000;
+    background: rgb(185, 185, 185);
+    border-radius: 12px;
+}
+
+#message {
+    color: #000000;
+    background: rgb(212, 212, 212);
+    border-radius: 12px;
+}
+
+#sender_name {
+    font-style: normal;
+    text-decoration: underline solid #e1e1e1;
+}
+
+#attach_entry {
+    box-shadow: none;
+    background: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 8px;
+    transition: all .2s;
+}
+#attach_entry:hover {
+    border: 2px solid #e1e1e1;
+    border-radius: 12px;
+}
+
+#more_box {
+    background-color: white;
+    border: 1px solid #1f1f1f;
+}
+
+#separator{
+    background-color: rgb(31, 31, 31);
+}
+#stickers_label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #535353;
+    font-size: 18px;
+    transition: all ease-in-out .1s;
+}
+#stickers_label:checked {
+    color: #000000;
+}
+
+#eventbox_image {
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+#eventbox_image:hover {
+    border: 1px solid #416ef2;
+}

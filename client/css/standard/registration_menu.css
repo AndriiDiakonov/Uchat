@@ -1,0 +1,159 @@
+#authorization_container {
+    background-image: url("../../img/back-registration.png");
+    background-size: 1280px;
+    background-position: -100px;
+ }
+
+ #error {
+    font-size: 16px;
+    color: red;
+    text-shadow: 0 0 10px #e95050,0 0 20px #e95050,0 0 30px #e95050;
+    margin-top: 20px;
+}
+
+ #registration_menu_form {
+    padding: 5px;
+    background: #1f1f1f;
+    border-radius: 15px;
+    border: .5px solid #e1e1e1;
+}
+
+#authorization {
+    font-size: 24px;
+    font-style: normal;
+    text-shadow: 0 0 10px whitesmoke,0 0 20px whitesmoke,0 0 30px whitesmoke;
+    color: #e1e1e1;
+    margin-top: 20px;
+}
+
+#error {
+    font-size: 16px;
+    color: red;
+    text-shadow: 0 0 10px #e95050,0 0 20px #e95050,0 0 30px #e95050;
+    margin-top: 20px;
+}
+
+#password_eye_back {
+    background: #e1e1e1;
+    border-radius: 5px;
+}
+
+#eye_password {
+    background-image: url("../../img/standard/blind.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    transition: all 0.4s;
+}
+#eye_password:checked {
+    background-image: url("../../img/standard/eye.png");
+}
+
+#authorization_pass_entry {
+    background-color: #e1e1e1;
+    color: #1f1f1f;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#authorization_pass_entry:link {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 0.2s;
+}
+
+
+#entry_data {
+    background-color: #e1e1e1;
+    color: #1f1f1f;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#entry_data:link {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 0.2s;
+}
+
+#password_reg {
+    background-color: #e1e1e1;
+    color: #1f1f1f;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#password_reg:link {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 0.2s;
+}
+
+#password_reg_confirm {
+    background-color: #e1e1e1;
+    color: #1f1f1f;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#password_reg:link {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 0.2s;
+}
+
+#login_button {
+    color: #e1e1e1;
+    letter-spacing: .8px;
+    background: #1f1f1f;
+    border-radius: 15px;
+    border: .5px solid #e1e1e1;
+    transition: all 0.2s ;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+#login_button:hover {
+    background: #e1e1e1;
+    color: #1f1f1f;
+}
+
+#Registration {
+    font-size: 14px;
+    color: grey;
+}
+#Registration:hover {
+    color: #e1e1e1;
+    text-shadow: 0 0 10px whitesmoke;
+}
+#Registration_label {
+    text-decoration-style: solid;
+    text-decoration: underline;
+}
+
+#back_button {
+    color: #e1e1e1;
+    font-family: "New Century Schoolbook", Times, serif;
+    letter-spacing: .8px;
+    background: #1f1f1f;
+    border-radius: 15px;
+    border: .5px solid #e1e1e1;
+    transition: all 0.2s ;
+}
+#back_button:hover {
+    background: #e1e1e1;
+    color: #1f1f1f;
+}
+#registration_buttons_box_2 {
+    margin-bottom: -31px;
+}
+

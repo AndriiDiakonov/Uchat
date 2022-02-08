@@ -1,0 +1,18 @@
+
+#language_label {
+    color: black;
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 6px;
+}
+
+#language_choose_eventbox {
+    border-radius: 30px;
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 100%);
+}
+#language_choose_eventbox:hover {
+    animation-name: gradient;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}

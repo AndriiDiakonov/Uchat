@@ -1,0 +1,20 @@
+<interface>
+    <object class="GtkBox" id="language_form">
+        <property name="orientation">vertical</property>
+        <property name="valign">center</property>
+        <property name="halign">center</property>
+        <property name="visible">False</property>
+        <child>
+        <object class="GtkEventBox" id="close_image_box">
+            <property name="margin_bottom">15</property>
+            <property name="halign">start</property>
+            <property name="visible">False</property>
+        </object>
+        <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+        </packing>
+        </child>
+    </object>
+</interface>

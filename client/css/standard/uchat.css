@@ -1,0 +1,299 @@
+@import url("edit_user_form.css");
+@import url("registration_menu.css");
+@import url("language_form.css");
+@import url("chat_area.css");
+
+* {
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/*          Entry Fields          */
+/* ============================== */
+#entry {
+    background-color: #e1e1e1;
+    color: #1f1f1f;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+/* ============================== */
+
+#blackout {
+   background-color: rgba(31, 31, 31, 0.6);
+}
+
+#time_send_stickers {
+    color: #fff;
+}
+
+#tools_menu {
+    background: white;
+}
+#search_menu {
+    background: #1f1f1f;
+    border: 1px solid white;
+}
+
+#tools_button {
+    color: #1f1f1f;
+    border-radius: 0;
+    transition: none;
+}
+#tools_button:hover {
+    background: #f3f3f3;
+}
+
+#pop_up_error {
+    background: #1f1f1f;
+    color: #e1e1e1;
+    border: 1.5px solid #e1e1e1;
+    border-radius: 12px;
+    padding: 20px 10px 20px 10px; 
+}
+
+@keyframes gradient {
+   /* 0% {background: linear-gradient(51deg, rgba(225,225,225,0.4) 0%, rgba(31,31,31,0) 33%);}
+    100% {background: linear-gradient(51deg, rgba(31,31,31,0) 74%, rgba(225,225,225,0) 100%);}*/
+}
+
+#text_size {
+    font-size: 17px;
+}
+
+#room_title {
+    color: #e1e1e1;
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+}
+#room_text_preview {
+    color: #e1e1e1;
+    font-size: 14px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#eventbox_room:checked {
+    background: rgb(82,82,82);
+
+}
+#eventbox_room:link {
+    animation-name: gradient;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+#close_image_box {
+    background-image: url("../../img/standard/cancel.png");
+    background-size: 25px;
+}
+#close_image_box:hover {
+    background-image: url("../../img/standard/cancel-hovered.png");
+    transition: all 0.5s ;
+}
+
+#return_image_box {
+    background-image: url("../../img/standard/left-arrow.png");
+    background-size: 25px;
+}
+#return_image_box:hover {
+    background-image: url("../../img/standard/left-arrow-hovered.png");
+    transition: all 0.5s ;
+}
+
+
+
+#message_enter_area {
+    background: #1f1f1f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#add_image {
+    background-image: url("../../img/standard/add.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+#add_image:hover {
+    background-image: url("../../img/standard/add-hovered.png");
+}
+#add_image:checked {
+    background-image: url("../../img/standard/add-hovered.png");
+}
+
+#ban_image {
+    background-image: url("../../img/standard/ban.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+#tick_image {
+    background-image: url("../../img/standard/tick.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+#tick_image:hover {
+    background-image: url("../../img/standard/tick-hovered.png");
+    transition: all 0.5s ;
+}
+
+#more_image {
+    background-image: url("../../img/standard/more.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+#more_image:hover {
+    background-image: url("../../img/standard/more-hovered.png");
+}
+#more_image:checked {
+    background-image: url("../../img/standard/more-hovered.png");
+}
+
+#edit_user_image {
+    background-image: url("../../img/standard/edit-user.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+#edit_user_image:hover {
+    background-image: url("../../img/standard/edit-user-hovered.png");
+}
+
+#change_account_image {
+    background-image: url("../../img/standard/identification.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+#change_account_image:hover {
+    background-image: url("../../img/standard/identification-hovered.png");
+}
+
+#chat_settings_image {
+    background-image: url("../../img/standard/chat-settings.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+#chat_settings_image:hover {
+    background-image: url("../../img/standard/chat-settings-hovered.png");
+}
+
+#language_image {
+    background-image: url("../../img/standard/book.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+#language_image:hover {
+    background-image: url("../../img/standard/book-hovered.png");
+}
+
+#messages_image {
+    background-image: url("../../img/standard/messages.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+#messages_image:hover {
+    background-image: url("../../img/standard/messages-hovered.png");
+}
+#messages_image:checked {
+    background-image: url("../../img/standard/messages-hovered.png");
+}
+
+#settings_image {
+    background-image: url("../../img/standard/settings.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.3s;
+}
+
+#settings_image_click {
+    background-image: url("../../img/standard/settings_click.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.3s;
+}
+
+#chats_list {
+    margin-top: -30px;
+}
+ 
+#DefaultLabel {
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#settings_menu {
+    color: #e1e1e1;
+    font-size: 16px;
+    padding-top: 7.5px;
+    margin-top: -40px;
+}
+
+#user_profile_preview_box {
+    padding-top: 7.5px;
+    padding-left: 28px;
+    padding-bottom: 7.5px;
+}
+
+#user_pseudonim_preview {
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+#username_preview {
+    font-size: 20px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+#change_box {
+    padding-top: 7.5px;
+    padding-left: 50px;
+    padding-bottom: 7.5px;
+}
+
+#label_settings_menu {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#language_box {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    padding-left: 56px;
+}
+
+/* Hovering effects for settings menu items */
+/* ======================================== */
+#setting_menu_eventbox:hover {
+    animation-name: gradient;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+/* ======================================== */
+
+/*        FOOTER         */
+/* ===================== */
+#label_postman {
+    margin-top: 185px;
+    font-size: 22px;
+    font-style: italic;
+}
+
+#label_version {
+    font-size: 14px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+/* ===================== */

@@ -1,0 +1,333 @@
+<interface>
+    <object class="GtkBox" id="edit_user_form">
+        <property name="orientation">vertical</property>
+        <property name="valign">center</property>
+        <property name="halign">center</property>
+        <property name="visible">False</property>
+
+        <child>
+        <object class="GtkBox" id="edit_user_main_screen">
+            <property name="orientation">vertical</property>
+            <property name="visible">False</property>
+            <child>
+            <object class="GtkEventBox" id="close_image_box">
+                <property name="halign">start</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">0</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkDrawingArea" id="avatar">
+                <property name="halign">center</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">1</property>
+                <property name="padding">0</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkButton" id="change_avatar_btn">
+                <property name="relief">none</property>
+                <property name="halign">center</property>
+                <property name="visible">False</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">2</property>
+                <property name="padding">10</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkEventBox" id="edit_username_eventbox">
+                <child>
+                <object class="GtkBox" id="edit_username_box">
+                    <property name="orientation">horizontal</property>
+                    <child>
+                    <object class="GtkBox" id="edit_username_icon">
+                        <property name="orientation">horizontal</property>
+                        <property name="valign">center</property>
+                    </object>
+                    <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="position">0</property>
+                        <property name="padding">20</property>
+                    </packing>
+                    </child>
+                    <child>
+                    <object class="GtkLabel" id="edit_username_label">
+                        <property name="halign">center</property>
+                    </object>
+                    <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="position">1</property>
+                        <property name="padding">20</property>
+                    </packing>
+                    </child>
+                    <child>
+                    <object class="GtkBox" id="edit_username_pen">
+                        <property name="orientation">horizontal</property>
+                        <property name="valign">center</property>
+                        <property name="halign">end</property>
+                    </object>
+                    <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                        <property name="padding">20</property>
+                    </packing>
+                    </child>
+                </object>
+                </child>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">3</property>
+                <property name="padding">15</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkEventBox" id="edit_pseudo_eventbox">
+                <child>
+                <object class="GtkBox" id="edit_pseudo_box">
+                    <property name="orientation">horizontal</property>
+                    <child>
+                    <object class="GtkBox" id="edit_pseudo_icon">
+                        <property name="orientation">horizontal</property>
+                        <property name="valign">center</property>
+                    </object>
+                    <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="position">0</property>
+                        <property name="padding">20</property>
+                    </packing>
+                    </child>
+                    <child>
+                    <object class="GtkLabel" id="edit_pseudo_label">
+                        <property name="halign">center</property>
+                    </object>
+                    <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="position">1</property>
+                        <property name="padding">20</property>
+                    </packing>
+                    </child>
+                    <child>
+                    <object class="GtkBox" id="edit_pseudo_pen">
+                        <property name="orientation">horizontal</property>
+                        <property name="valign">center</property>
+                        <property name="halign">end</property>
+                    </object>
+                    <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                        <property name="padding">20</property>
+                    </packing>
+                    </child>
+                </object>
+                </child>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">4</property>
+                <property name="padding">0</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkLabel" id="change_description_label">
+                <property name="halign">start</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">5</property>
+                <property name="padding">0</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkBox" id="change_description_box">
+                <property name="orientation">vertical</property>
+                <child>
+                <object class="GtkTextView" id="change_description_entry">
+
+                </object>
+                <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">False</property>
+                    <property name="position">0</property>
+                </packing>
+                </child>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">6</property>
+            </packing>
+            </child>
+        </object>
+        <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+        </packing>
+        </child>
+
+        <child>
+        <object class="GtkBox" id="edit_username_event_screen">
+            <property name="orientation">vertical</property>
+            <property name="visible">False</property>
+            <child>
+            <object class="GtkEventBox" id="return_image_box">
+                <property name="halign">start</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">0</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkDrawingArea" id="username_avatar">
+                <property name="halign">center</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">1</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkLabel" id="change_fname_label">
+                <property name="halign">start</property>
+                <property name="margin_top">48</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">2</property>
+                <property name="padding">15</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkEntry" id="change_fname_entry">
+                <property name="max_length">15</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">3</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkLabel" id="change_sname_label">
+                <property name="halign">start</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">4</property>
+                <property name="padding">15</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkEntry" id="change_sname_entry">
+                <property name="max_length">15</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">5</property>
+            </packing>
+            </child>
+        </object>
+        <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+        </packing>
+        </child>
+
+        <child>
+        <object class="GtkBox" id="edit_pseudonim_event_screen">
+            <property name="orientation">vertical</property>
+            <property name="visible">False</property>
+            <child>
+            <object class="GtkEventBox" id="return_image_box1">
+                <property name="halign">start</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">0</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkDrawingArea" id="pseudonim_avatar">
+                <property name="halign">center</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">1</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkLabel" id="change_pseudo_label">
+                <property name="halign">start</property>
+                <property name="margin_top">72</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">2</property>
+                <property name="padding">15</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkEntry" id="change_pseudo_entry">
+                <property name="max_length">15</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">3</property>
+            </packing>
+            </child>
+            <child>
+            <object class="GtkLabel" id="info_label">
+                <property name="halign">start</property>
+                <property name="margin_top">0</property>
+                <property name="margin_start">20</property>
+                <property name="margin_end">20</property>
+                <property name="max_width_chars">38</property>
+            </object>
+            <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">4</property>
+                <property name="padding">15</property>
+            </packing>
+            </child>
+
+        </object>
+        <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">2</property>
+        </packing>
+        </child>
+
+    </object>
+</interface>

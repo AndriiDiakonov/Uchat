@@ -1,0 +1,127 @@
+#edit_user_form {
+    padding: 5px;
+    box-shadow: 0px 0px 5px 2px #e1e1e1;
+    border-radius: 15px;
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 100%);
+}
+
+#edit_eventbox {
+    margin-top: 0px;
+    border-bottom: 0.5px solid #e1e1e1;
+}
+#edit_eventbox:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    animation-name: gradient;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+/* Style for all labels in this form */
+/* ================================= */
+#edit_label {
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+/* ================================= */
+
+#info_label {
+    color: black;
+    /*margin-left: 20px;*/
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    font-style: italic;
+    /*margin-left: -5px;*/
+}
+
+#change_description_box {
+    box-shadow: none;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0px;
+}
+#change_description_entry {
+    font-size: 16px;
+    color: black;
+    background: white;
+    opacity: 0.9;
+}
+
+/*           Styles for all buttons in this form          */
+/* ====================================================== */
+#edit_button {
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    letter-spacing: .8px;
+    background: white;
+    border: .5px solid black;
+}
+#edit_button:hover {
+    background: #dddddd;
+    color: black;
+    transition: all 0.2s;
+}
+/* ====================================================== */
+
+
+/*              Icon that for "edit username"                */
+/* ========================================================== */
+#edit_username_icon {
+    background-image: url("../../img/colored/change_name.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+#edit_username_icon:hover {
+    background-image: url("../../img/colored/change_name-hovered.png");
+}
+/* ========================================================== */
+
+
+/*              Icon that for "edit pseudonim"                */
+/* ========================================================== */
+#edit_pseudo_icon {
+    margin-top: -3px;
+    margin-left: 3px;
+    background-image: url("../../img/colored/pseudonim.png");
+    background-size: 23px;
+    background-repeat: no-repeat;
+}
+#edit_pseudo_icon:hover {
+    background-image: url("../../img/colored/pseudonim-hovered.png");
+}
+/* ========================================================== */
+
+
+/* Icon with a pen image that will be shown after hovering the widget */
+/* ================================================================== */
+#pen {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: all 0.2s ;
+}
+#pen:hover {
+    background-image: url("../../img/colored/pen.png");
+}
+/* ================================================================== */
+
+#edit_entry {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#edit_entry:link {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 0.2s;
+}

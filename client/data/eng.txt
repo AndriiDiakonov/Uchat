@@ -1,0 +1,39 @@
+Language
+Change theme
+Change account
+Edit profile
+Select a chat to start conversation
+Change photo
+Edit info about you:
+Write your first name:
+Write your second name (not necessary):
+Write your new username:
+It will be easier for users to find you using this identifier.
+Exit
+Apply
+Search...
+Write a message...
+Back
+Authorization
+Username
+Password
+Log in
+Follow this link to registration
+Registration
+Enter a username*
+Enter a password*
+Enter a password again*
+Next
+Your first name*
+Your second name
+Finish
+Select a contact to learn more
+You cannot send an empty message!
+Passwords do not match!
+Incorrect Username or Password!
+The user with this username already exists!
+Account settings
+Copy
+Delete
+Edit
+Notes

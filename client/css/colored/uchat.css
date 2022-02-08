@@ -1,0 +1,299 @@
+@import url("edit_user_form.css");
+@import url("registration_menu.css");
+@import url("language_form.css");
+@import url("chat_area.css");
+
+* {
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/*          Entry Fields          */
+/* ============================== */
+#entry {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+/* ============================== */
+
+#blackout {
+   background-color: rgba(31, 31, 31, 0.6);
+}
+#time_send_stickers {
+    color: #000;
+}
+#text_size {
+    font-size: 17px;
+}
+#tools_menu {
+    background: rgb(0, 0, 0);
+}
+#search_menu {
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 100%);
+    border: 1px solid white;
+}
+
+#tools_button {
+    color: black;
+    border-radius: 0;
+    transition: none;
+}
+#tools_button:hover {
+    background: #f3f3f3;
+}
+
+#pop_up_error {
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 100%);
+    color: rgb(0, 0, 0);
+    border: 1.5px solid #e1e1e1;
+    border-radius: 12px;
+    padding: 20px 10px 20px 10px; 
+}
+
+@keyframes gradient {
+   /* 0% {background: linear-gradient(51deg, rgba(223,196,245,0.4) 0%, rgba(241,200,245,0) 33%);}
+    100% {background: linear-gradient(51deg, rgba(241,200,245,0) 74%, rgba(223,196,245,0) 100%);}*/
+}
+
+#room_title {
+    color: black;
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+}
+#room_text_preview {
+    color: black;
+    font-size: 14px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#eventbox_room:checked {
+    background: rgb(194, 194, 194);
+  
+}
+#eventbox_room:link {
+    animation-name: gradient;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+#close_image_box {
+    background-image: url("../../img/colored/cancel.png");
+    background-size: 25px;
+}
+#close_image_box:hover {
+    background-image: url("../../img/colored/cancel-hovered.png");
+    transition: all 0.5s ;
+}
+
+#return_image_box {
+    background-image: url("../../img/colored/left-arrow.png");
+    background-size: 25px;
+}
+#return_image_box:hover {
+    background-image: url("../../img/colored/left-arrow-hovered.png");
+    transition: all 0.5s ;
+}
+
+
+
+#message_enter_area {
+    background: rgb(224,224,224);
+   /* background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 100%);*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#add_image {
+    background-image: url("../../img/colored/add.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+#add_image:hover {
+    background-image: url("../../img/colored/add-hovered.png");
+}
+#add_image:checked {
+    background-image: url("../../img/colored/add-hovered.png");
+}
+
+#ban_image {
+    background-image: url("../../img/colored/ban.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+#tick_image {
+    background-image: url("../../img/colored/tick.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+#tick_image:hover {
+    background-image: url("../../img/colored/tick-hovered.png");
+    transition: all 0.5s ;
+}
+
+#more_image {
+    background-image: url("../../img/colored/more.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+#more_image:hover {
+    background-image: url("../../img/colored/more-hovered.png");
+}
+#more_image:checked {
+    background-image: url("../../img/colored/more-hovered.png");
+}
+
+#edit_user_image {
+    background-image: url("../../img/colored/edit-user.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+#edit_user_image:hover {
+    background-image: url("../../img/colored/edit-user-hovered.png");
+}
+
+#change_account_image {
+    background-image: url("../../img/colored/identification.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+#change_account_image:hover {
+    background-image: url("../../img/colored/identification-hovered.png");
+}
+
+#chat_settings_image {
+    background-image: url("../../img/colored/chat-settings.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+#chat_settings_image:hover {
+    background-image: url("../../img/colored/chat-settings-hovered.png");
+}
+
+#language_image {
+    background-image: url("../../img/colored/book.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 0px;
+}
+#language_image:hover {
+    background-image: url("../../img/colored/book-hovered.png");
+}
+
+#messages_image {
+    background-image: url("../../img/colored/messages.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+#messages_image:hover {
+    background-image: url("../../img/colored/messages-hovered.png");
+}
+#messages_image:checked {
+    background-image: url("../../img/colored/messages-hovered.png");
+}
+
+#settings_image {
+    background-image: url("../../img/colored/settings.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.3s;
+}
+
+#settings_image_click {
+    background-image: url("../../img/colored/settings_click.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.3s;
+}
+
+#chats_list {
+    margin-top: -30px;
+}
+
+#DefaultLabel {
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+}
+
+#settings_menu {
+    color: black;
+    font-size: 16px;
+    padding-top: 7.5px;
+    margin-top: -40px;
+}
+
+#user_profile_preview_box {
+    padding-top: 7.5px;
+    padding-left: 28px;
+    padding-bottom: 7.5px;
+}
+
+#user_pseudonim_preview {
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+#username_preview {
+    font-size: 20px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+#change_box {
+    padding-top: 7.5px;
+    padding-left: 50px;
+    padding-bottom: 7.5px;
+}
+
+#label_settings_menu {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#language_box {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    padding-left: 56px;
+}
+
+/* Hovering effects for settings menu items */
+/* ======================================== */
+#setting_menu_eventbox:hover {
+    animation-name: gradient;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+/* ======================================== */
+
+/*        FOOTER         */
+/* ===================== */
+#label_postman {
+    margin-top: 185px;
+    font-size: 22px;
+    font-style: italic;
+}
+
+#label_version {
+    font-size: 14px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+/* ===================== */
