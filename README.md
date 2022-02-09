@@ -26,9 +26,11 @@
     make
     ```
 4. For running execute:
+    // server
     ``` bash
-    ./uchat_server 90 // server
+    ./uchat_server 90 
     ```
+    // client
     ``` bash
-    ./uchat localhost 90  // client
+    ./uchat localhost 90  
     ```
