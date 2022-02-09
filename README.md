@@ -16,11 +16,19 @@
 ## Compiling and Run
 1. make
 2. Clone repo and go to it`s directory by executing:
-    git clone git@github.com:AndriiDiakonov/Uchat.git
-    cd Uchat
+    ``` bash
+    git clone https://github.com/AndriiDiakonov/Uchat.git
 
+    cd Uchat
+    ```
 3. For compile you must execute command:
+    ``` bash
     make
+    ```
 4. For running execute:
-    ./uchat_server 90 // server 
-    ./uchat localhost 90 // client
+    ``` bash
+    ./uchat_server 90 // server
+    ```
+    ``` bash
+    ./uchat localhost 90  // client
+    ```
