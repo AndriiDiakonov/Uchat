@@ -257,7 +257,6 @@ void mx_create_theme_menu(void);
 
 void mx_configure_main_area(void);
 void mx_configure_left_header(void);
-void mx_configure_content_selection_area(void);
 void mx_configure_chats_list(void);
 void mx_configure_settings_menu_area(void);
 void mx_configure_username_event_screen(GtkBuilder *builder);

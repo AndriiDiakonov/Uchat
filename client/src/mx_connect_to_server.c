@@ -5,7 +5,7 @@ int mx_connect_to_server(int *sock) {
     struct sockaddr_in serv_addr;
     struct hostent *server;
     
-    portno = atoi(argv_ptr[2]);
+    portno = mx_atoi(argv_ptr[2]);
     *sock = socket(AF_INET, SOCK_STREAM, 0);
     
     if (*sock < 0) {

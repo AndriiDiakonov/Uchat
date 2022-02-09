@@ -90,8 +90,7 @@ void authorization(GtkWidget *widget, GdkEvent *event, GtkWidget *data) {
             
             // Create a header for left area
             mx_configure_left_header();
-            // Create a selection area
-            mx_configure_content_selection_area();
+            
             // Create a chat list area
             mx_configure_chats_list();
 
