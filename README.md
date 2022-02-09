@@ -6,7 +6,7 @@
 
 
 ## Authors
-- Andrii D`Yakonov | [LMS](https://lms.ucode.world/users/adyakonov) | [GitHub](https://github.com/AndriiDiakonov)
+- Andrii Diakonov | [LMS](https://lms.ucode.world/users/adyakonov) | [GitHub](https://github.com/AndriiDiakonov)
 - Bohdan Huba | [LMS](https://lms.ucode.world/users/bhuba) 
 - Bohdan Khodan | [LMS](https://lms.ucode.world/users/bkhodan) 
 - Danylo Soloviov| [LMS](https://lms.ucode.world/users/dsoloviov) 
